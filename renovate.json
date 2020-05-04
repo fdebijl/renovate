@@ -11,7 +11,7 @@
       "automerge": true,
       "semanticCommits": true,
       "schedule": [
-        "after 8am and before 2pm on monday"
+        "after 8am and before 5pm on monday"
       ]
     },
     {
@@ -22,7 +22,7 @@
       "automerge": true,
       "semanticCommits": true,
       "schedule": [
-        "after 8am and before 2pm on monday"
+        "after 8am and before 5pm on monday"
       ]
     }
   ]
