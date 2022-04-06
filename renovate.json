@@ -1,10 +1,12 @@
 {
   "extends": [
-    "config:base"
+    "config:base",
+    ":disableDependencyDashboard"
   ],
   "packageRules": [
     {
       "depTypeList": ["dependencies"],
+      "stabilityDays": 21,
       "groupName": "deps",
       "updateTypes": ["minor", "patch", "pin", "digest", "lockFileMaintenance", "rollback", "bump"],
       "requiredStatusChecks": null,
@@ -16,6 +18,7 @@
     },
     {
       "depTypeList": ["devDependencies"],
+      "stabilityDays": 21,
       "groupName": "devDeps",
       "updateTypes": ["minor", "patch", "pin", "digest", "lockFileMaintenance", "rollback", "bump"],
       "requiredStatusChecks": null,
